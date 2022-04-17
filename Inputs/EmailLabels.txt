@@ -1,0 +1,26 @@
+1. Personal Labels
+	[1] _TEMP_FIRST_NAME_
+		_TEMP_FIRST_NAME_: All
+		_TEMP_FIRST_NAME_: DMs Slack
+		_TEMP_FIRST_NAME_: Direct
+	Correspondences and Team
+	Notices
+	PRO Unlimited
+	Self Notes
+2. Tools
+	Google Services
+		gCalendar
+		gDataStudio
+		gDocs
+		gDrive
+		gJamboard
+		gRecordings
+		gSheets
+		gSites
+		gSlides
+		Script Failures
+		Tags
+	JIRA
+	Lucidchart
+	Slack
+	Trello

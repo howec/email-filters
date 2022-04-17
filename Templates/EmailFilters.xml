@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001586203883003*8197149472754851473,z0000001586203883895*2471503088714210188,z0000001586203884766*4142549878415756607,z0000001586203899271*1622981192394285938,z0000001586203902336*1471127794892718380,z0000001586203906357*8027950755987035743,z0000001586203909141*0877772291621557390,z0000001586203911942*3572947783312429161,z0000001586203914773*6075433259633051660,z0000001586203937797*1843412875575517996,z0000001586203941594*0980637378937157744,z0000001586203944642*2536348276798313077,z0000001586203947223*0534864938518722685,z0000001586203950003*4068280194557852209,z0000001586203952450*4898857139996555021,z0000001586203954983*7872411355149351416,z0000001586203957575*4621697854568955143,z0000001586203960595*1285422580505726293,z0000001586203963202*2210072417397352857,z0000001586203965975*5396958898000465278,z0000001586203968521*3493000663696717603,z0000001586203971089*5429301839975470962,z0000001586203973418*1073155286838352084,z0000001586204161512*4368462642110996398,z0000001596054998750*4960635163333639701,z0000001599262762063*4963437467565525631,z0000001599264120632*5539554947541712558,z0000001599264291826*5979599832070631502,z0000001599264484745*6703738899960755377,z0000001599264676121*0077463288171352648,z0000001599265292535*3480480655732367634,z0000001599265510539*8862909168720711301,z0000001599265723323*6210402106493814311,z0000001599266557050*2865004392798709010,z0000001599267091130*3691222806935177527,z0000001599268091482*8173049936619733029,z0000001599268528482*6750631642240344646,z0000001599686245341*2657680805580584216,z0000001599686396408*5204508712019293031,z0000001599686958870*5842492307532393945,z0000001599687187656*7417594277659424852,z0000001599688720075*5974767579695386739,z0000001599695792355*6966786823009692482,z0000001599695934961*5464700107675652027,z0000001599696640283*7724665175915462883,z0000001600153248813*6474536840565232258,z0000001600153380019*8698825542134565589,z0000001600305786457*6489860358928413770,z0000001600821862261*0194662897045065045,z0000001611604544159*4108294345960237452,z0000001614213144753*3673444814801012866,z0000001614213511636*2990370579138751116,z0000001614213715712*1037639450353999652,z0000001614215088908*1595342657090615983</id>
+	<updated>2021-02-25T04:45:39Z</updated>
+
+
+<!--"1. Personal Labels"-->
+	<!--"[1] _TEMP_FIRST_NAME_"-->
+		<!--"_TEMP_FIRST_NAME_: All"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001615585927949*8919968927324435310</id>
+				<updated>2021-03-12T21:53:32Z</updated>
+				<content></content>
+				<apps:property name='label' value='0. Personal Labels/[0] _TEMP_FIRST_NAME_/_TEMP_FIRST_NAME_: All'/>
+				<apps:property name='size' value='0'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_sb'/>
+			</entry>
+		<!--"_TEMP_FIRST_NAME_: Slack DMs"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001599695792355*6966786823009692482</id>
+				<updated>2021-02-25T04:45:39Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;You have a new mention in&quot;) OR (&quot;You have a new direct message in&quot;)'/>
+				<apps:property name='from' value='@slack.com'/>
+				<apps:property name='label' value='0. Personal Labels/[0] _TEMP_FIRST_NAME_/_TEMP_FIRST_NAME_: DMs Slack'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='shouldNeverSpam' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"_TEMP_FIRST_NAME_: Direct"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001596054998750*4960635163333639701</id>
+				<updated>2021-02-25T04:45:39Z</updated>
+				<content></content>
+				<apps:property name='to' value='_TEMP_EMAIL_1_ OR _TEMP_EMAIL_2_'/>
+				<apps:property name='label' value='0. Personal Labels/[0] _TEMP_FIRST_NAME_/_TEMP_FIRST_NAME_: Inbox'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='shouldNeverSpam' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+<!--"2. Tools"-->
+	<!--"Google Services"-->
+		<!--"gCalendar"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614335155545*0933459366112844965</id>
+				<updated>2021-03-03T04:29:15Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='&quot;Invitation from Google Calendar&quot;'/>
+				<apps:property name='label' value='2. Tools/Google Services/gCalendar'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='shouldNeverSpam' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gDataStudio"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735508833*1622165858321280761</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;Google Data Studio: Easy reporting and analysis across all your data.&quot;)'/>
+				<apps:property name='from' value='google-data-studio-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gDataStudio'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gDocs"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735508833*1622165858321280761</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;Google Docs: Create and edit documents online.&quot;) OR (&quot;shared a document with you from Google Docs.&quot;)'/>
+				<apps:property name='from' value='drive-shares-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gDocs'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gDrive"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735623075*5819907511752033797</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;Google Drive: Have all your files within reach from any device.&quot;) OR (&quot;shared a file or folder located in Google Drive with you.&quot;)'/>
+				<apps:property name='from' value='drive-shares-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gDrive'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gJamboard"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735591098*4329426988749203737</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;Google Jamboard: Your collaborative digital whiteboard.&quot;)'/>
+				<apps:property name='from' value='drive-shares-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gJamboard'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gRecordings"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735730743*8948484335463469538</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='from' value='meet-recordings-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gRecordings'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gSheets"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735549120*9048912081279216719</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;Google Sheets: Create and edit spreadsheets online.&quot;) OR (&quot;shared a spreadsheet with you from Google Sheets.&quot;)'/>
+				<apps:property name='from' value='drive-shares-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gSheets'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gSites"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735549120*9048912081279216719</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;the following site:&quot;)'/>
+				<apps:property name='from' value='drive-shares-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gSites'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"gSlides"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614735508833*1622165858321280761</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;shared a presentation with you from Google Slides.&quot;)'/>
+				<apps:property name='from' value='drive-shares-dm-noreply@google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/gSlides'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"Script Failures"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614335160825*4252901326525631140</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='subject' value='Summary of failures for google apps script'/>
+				<apps:property name='label' value='2. Tools/Google Services/Script Failures'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='shouldNeverSpam' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+		<!--"Tags"-->
+			<entry>
+				<category term='filter'></category>
+				<title>Mail Filter</title>
+				<id>tag:mail.google.com,2008:filter:z0000001614335160825*4252901326525631140</id>
+				<updated>2021-03-03T03:27:04Z</updated>
+				<content></content>
+				<apps:property name='hasTheWord' value='(&quot;Change what Google Docs sends you.&quot;)'/>
+				<apps:property name='from' value='comments-noreply@docs.google.com'/>
+				<apps:property name='label' value='2. Tools/Google Services/Tags'/>
+				<apps:property name='shouldArchive' value='true'/>
+				<apps:property name='shouldNeverSpam' value='true'/>
+				<apps:property name='sizeOperator' value='s_sl'/>
+				<apps:property name='sizeUnit' value='s_smb'/>
+			</entry>
+	<!--"JIRA"-->
+		<entry>
+			<category term='filter'></category>
+			<title>Mail Filter</title>
+			<id>tag:mail.google.com,2008:filter:z0000001599267091130*3691222806935177527</id>
+			<updated>2021-02-25T04:45:39Z</updated>
+			<content></content>
+			<apps:property name='from' value='jira'/>
+			<apps:property name='label' value='2. Tools/JIRA'/>
+			<apps:property name='shouldArchive' value='true'/>
+			<apps:property name='shouldNeverSpam' value='true'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+	<!--"Lucidchart"-->
+		<entry>
+			<category term='filter'></category>
+			<title>Mail Filter</title>
+			<id>tag:mail.google.com,2008:filter:z0000001599267091130*3691222806935177527</id>
+			<updated>2021-02-25T04:45:39Z</updated>
+			<content></content>
+			<apps:property name='from' value='lucidchart'/>
+			<apps:property name='label' value='2. Tools/Lucidchart'/>
+			<apps:property name='shouldArchive' value='true'/>
+			<apps:property name='shouldNeverSpam' value='true'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+	<!--"Slack"-->
+		<entry>
+			<category term='filter'></category>
+			<title>Mail Filter</title>
+			<id>tag:mail.google.com,2008:filter:z0000001599695792355*6966786823009692482</id>
+			<updated>2021-02-25T04:45:39Z</updated>
+			<content></content>
+			<apps:property name='from' value='@slack.com'/>
+			<apps:property name='label' value='2. Tools/Slack'/>
+			<apps:property name='shouldArchive' value='true'/>
+			<apps:property name='shouldNeverSpam' value='true'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+	<!--"Trello"-->
+		<entry>
+			<category term='filter'></category>
+			<title>Mail Filter</title>
+			<id>tag:mail.google.com,2008:filter:z0000001599695792355*6966786823009692482</id>
+			<updated>2021-02-25T04:45:39Z</updated>
+			<content></content>
+			<apps:property name='from' value='@trello.com'/>
+			<apps:property name='label' value='2. Tools/Trello'/>
+			<apps:property name='shouldArchive' value='true'/>
+			<apps:property name='shouldNeverSpam' value='true'/>
+			<apps:property name='sizeOperator' value='s_sl'/>
+			<apps:property name='sizeUnit' value='s_smb'/>
+		</entry>
+
+
+
+
+
+
+</feed>

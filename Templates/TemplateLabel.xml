@@ -1,0 +1,12 @@
+<!--"1_TEMP_INPUT_LABEL_"-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001614329480605*1757213374575792329</id>
+		<updated>2021-02-26T08:51:31Z</updated>
+		<content></content>
+		<apps:property name='label' value='2_TEMP_INPUT_LABEL_NESTING_'/>
+		<apps:property name='size' value='0'/>
+		<apps:property name='sizeOperator' value='s_ss'/>
+		<apps:property name='sizeUnit' value='s_sb'/>
+	</entry>
