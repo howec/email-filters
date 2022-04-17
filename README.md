@@ -18,6 +18,3 @@ Email Step
   3. First load the "OutputLabels.xml" file -- select all and create all. You should now have all your labels
   4. Repeat step 2
   5. Finally load the "OutputFilters.xml" file -- select all and create all. You should now have all your filters 
-# Email-Filters
-# Email-Filters
-# Email-Filters
